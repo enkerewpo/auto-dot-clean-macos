@@ -1,7 +1,7 @@
 {
   "name": "auto-dot-clean-macos",
   "displayName": "Auto Dot Clean(MacOS)",
-  "description": "automatic dot clean when using network connected fs",
+  "description": "automatic dot clean when using Parallel Desktop's Windows shared folder",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.96.0"
@@ -14,8 +14,21 @@
   "contributes": {
     "commands": [
       {
-        "command": "auto-dot-clean-macos.helloWorld",
-        "title": "Hello World"
+        "command": "auto-dot-clean-macos.runDotClean",
+        "title": "Run Dot Clean",
+        "category": "File Management"
+      },
+      {
+        "command": "auto-dot-clean-macos.toggleExtension",
+        "title": "Enable/Disable Auto Dot Clean",
+        "category": "File Management"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "auto-dot-clean-macos.runDotClean",
+        "key": "ctrl+cmd+d",
+        "when": "editorTextFocus"
       }
     ]
   },
