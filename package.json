@@ -2,9 +2,10 @@
   "name": "auto-dot-clean-macos",
   "displayName": "Auto Dot Clean(MacOS)",
   "description": "Automatic run dot_clean when using Parallel Desktop's Windows shared folder",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "license": "MIT",
   "publisher": "wheatfox",
+  "icon": "images/icon.png",
   "repository": {
     "type": "git",
     "url": "https://github.com/enkerewpo/auto-dot-clean-macos"
