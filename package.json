@@ -2,10 +2,10 @@
   "name": "auto-dot-clean-macos",
   "displayName": "Auto Dot Clean(MacOS)",
   "description": "Automatic run dot_clean when using Parallel Desktop's Windows shared folder",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "license": "MIT",
   "publisher": "wheatfox",
-  "icon": "images/icon.png",
+  "icon": "images/icon.jpg",
   "repository": {
     "type": "git",
     "url": "https://github.com/enkerewpo/auto-dot-clean-macos"
@@ -22,12 +22,12 @@
     "commands": [
       {
         "command": "auto-dot-clean-macos.runDotClean",
-        "title": "Run Dot Clean",
+        "title": "Run Dot Clean(MacOS)",
         "category": "File Management"
       },
       {
         "command": "auto-dot-clean-macos.toggleExtension",
-        "title": "Enable/Disable Auto Dot Clean",
+        "title": "Enable/Disable Auto Dot Clean(MacOS)",
         "category": "File Management"
       }
     ],

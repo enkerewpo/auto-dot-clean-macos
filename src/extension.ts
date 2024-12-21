@@ -50,7 +50,7 @@ function runDotClean(workspaceRoot: string) {
 			console.warn(`dot_clean stderr: ${stderr}`);
 		}
 		console.log(`dot_clean stdout: ${stdout}`);
-		vscode.window.showInformationMessage(`success: ${cmd}\nstdout: ${stdout}\nstderr: ${stderr}`);
+		vscode.window.showInformationMessage(`dot_clean ran successfully: cmd = ${cmd}`);
 	});
 }
 
